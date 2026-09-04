@@ -1,4 +1,5 @@
 {choose:random dialouge|watch something go wrong with the ffmpeg effects even tho i tested them|{math:{js:console.log(discord.tag.uses)}+1} uses|meow|:3|if yasin becomes controversial again then i’m keeping the merge so i can stay ahead}{if:{username:{tagownerid}}|=|mr.media2k|then:|else:{if:{username:{tagownerid}}|=|yasinreturns|then:|else:{if:{username:{tagownerid}}|=|yellowgreengmd_gdalt|then:|else:{newline}**this tag is not owned by the real creators (mr.media2k, yasinreturns & yellowgreengmd_gdalt)!**}}}
+{set:c|}
 {set:fx|{choose:{set:e|Green Lowers}
 swaprgba 0 grb
 audiopitch 0 0.5|{set:e|ZooPals Effect V3}
@@ -1085,7 +1086,29 @@ swaprgba 0 r00
 huecurvergba 0 red 0.5 0
 audiopitch 0 2**(1/2)|{set:e|We’re All In This Together Effect V1}
 hueshifthsv 0 -120
-audiopitch 0 2**(-3/4)|{set:e|Orange Effect}
+audiopitch 0 2**(-3/4)|{set:e|yellowgreengmd_gdalt's G-Major}{set:c|yellowgreengmd_gdalt}
+contrast 0 -1
+huecurvergba 0 all 0 0.66 1 0.66 0
+invert 0
+contrast 0 -1
+rotate 0 0.5
+
+copy 0 0$ # the hollyvideo gen /j
+convert 0$ audio/wav
+copy 0$ 0$p
+copy 0$ 0$q
+copy 0$ 0$r
+audiopitch 0$p 2**(3/12)
+audiopitch 0$q 2**(5/12)
+audiopitch 0$r 2**(7/12)
+audioputmix 0$ 0$p
+volume 0$
+audioputmix 0$ 0$q
+volume 0$
+audioputmix 0$ 0$r
+volume 0$
+audiopitch 0$ 2**(-0.2/12)
+audioputreplace 0 0$|{set:e|Orange Effect}
  -vf "split=3[a][b][t];[a]format=gray,curves=r=0/1 0.5/1 1/1:g=0/0.5019607843137255 0.5/0.5019607843137255 1/0.5019607843137255:b=0/0 0.5/0 1/0[aa];[b]format=gray,curves=all=0/1 0.5/0 1/0[bb];[aa][bb]alphamerge[c];[t][c]overlay" -c:v ffv1 -c:a pcm_s16le a$i.mp4
 curl -sSL "https://github.com/GanerCodes/AutotuneBot/raw/refs/heads/main/autotune.exe" -o ./autotune.exe
 chmod +x ./autotune.exe
@@ -1190,5 +1213,5 @@ load https://cdn.discordapp.com/attachments/1502102376440529048/1545121218771030
 contain i w h
 {if:iw|=|w|then:cover i w w*9/16|else:cover i h*16/9 h}
 overlay 0 i 0 0}}
-You got: {get:e}{if:{get:s}|=||then:|else:, suggested by {get:s}}
+You got: {get:e}{if:{get:s}|=||then:|else:, suggested by {get:s}}{if:{get:c}|=||then:|else:, contributed by {get:c}}
 ping mr.media2k, yasinreturns or yellowgreengmd_gdalt if you want to suggest an effect to be added.
