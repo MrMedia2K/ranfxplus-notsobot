@@ -1,0 +1,1194 @@
+{choose:random dialouge|watch something go wrong with the ffmpeg effects even tho i tested them|{math:{js:console.log(discord.tag.uses)}+1} uses|meow|:3|if yasin becomes controversial again then i’m keeping the merge so i can stay ahead}{if:{username:{tagownerid}}|=|mr.media2k|then:|else:{if:{username:{tagownerid}}|=|yasinreturns|then:|else:{if:{username:{tagownerid}}|=|yellowgreengmd_gdalt|then:|else:{newline}**this tag is not owned by the real creators (mr.media2k, yasinreturns & yellowgreengmd_gdalt)!**}}}
+{set:fx|{choose:{set:e|Green Lowers}
+swaprgba 0 grb
+audiopitch 0 0.5|{set:e|ZooPals Effect V3}
+hueshifthsv 0 180
+haah 0
+explode 0
+audiopitch 0 2**(-11/12)|{set:e|G-Major 97}
+haah 0
+audiopitch 0 2**(-5/6)|{set:e|High Divided}
+swaprgba 0 rbg
+flop 0
+resize 0 512 512
+rotate 0 -90
+distort 0 arc 30 90
+contain 0 640 512
+distort 0 bilinear_forward 88 70 -116 -74 60 303 -48 395 550 30 642 -24 553 382 642 368
+resize 0 w h
+flop 0
+audiopitch 0 2**(-3/4)|{set:e|I KILLED X}
+hueshifthsv 0 -120
+explode 0
+audiopitch 0 2**(-2/3)|{set:e|Because X Deserves It}
+hueshifthsv 0 135
+audiopitch 0 2**(-7/12)|{set:e|Field Day Major}
+waaw 0
+hueshifthsv 0 180
+audiopitch 0 2**(-1/2)|{set:e|Inverted Effect}
+hueshifthsv 0 180
+audiopitch 0 2**(-5/12)|{set:e|Red Major}
+grayscale 0
+swaprgba 0 r00
+huecurvergba 0 1 0 1
+audiopitch 0 2**(-1/3)|{set:e|Leaf Fall Down Major}
+flop 0
+hueshifthsv 0 -60
+audiopitch 0 2**(-1/4)|{set:e|Not Scary}
+hueshifthsv 0 180
+waaw 0
+rotate 0 90
+waves 0 w/40 w/5 5
+rotate 0 -90
+cover 0 w h
+audiopitch 0 2**(-1/6)|{set:e|Luig Group}
+hueshifthsv 0 -60
+audiopitch 0 2**(-1/12)|{set:e|Normal}
+volume 0 1|{set:e|Mari Group}
+hueshifthsv 0 60
+audiopitch 0 2**(1/12)|{set:e|Diamond Major}
+hueshifthsv 0 21.6
+flop 0
+audiopitch 0 2**(1/6)|{set:e|Boul123 Major}
+hueshifthsv 0 108 75
+wave 0 w/75 w/3
+cover 0 w h
+audiopitch 0 2**(1/4)|{set:e|Cute X}
+hueshifthsv 0 120
+explode 0
+implode 0 0.33
+audiopitch 0 2**(1/3)|{set:e|Wanda Rabbit Major}
+grayscale 0
+huecurvergba 0 red 1 1 0
+huecurvergba 0 green 0.3607 1 0.047
+huecurvergba 0 blue 0 1 0.8235
+audiopitch 0 2**(5/12)|{set:e|Crazy Slow Killed (No Speed)}
+hueshifthsv 0 78
+explode 0 1.5
+rotate 2 90
+wave 2 h/8 w/3.6
+rotate 2 -90
+cover 0 w h
+wave 0 -h/12 w/2
+cover 0 w h
+audiopitch 0 2**(1/2)|{set:e|Micah Major}
+hueshifthsv 0 288
+swirl 0
+explode 0
+audiopitch 0 2**(7/12)|{set:e|G-Major 1}
+hueshifthsv 0 180
+invert 0
+audiopitch 0 2**(2/3)|{set:e|G-Major 55}
+swaprgba 0 bgr
+hueshifthsv 0 262.8
+wave 0 w/20 w/1.5
+cover 0 w h
+haah 0
+audiopitch 0 2**(3/4)|{set:e|T-Major}
+hueshifthsv 0 201.6
+invert 0
+audiopitch 0 2**(5/6)|{set:e|I Drained X}
+swaprgba 0 bgr
+hueshifthsv 0 180
+flop 0
+swirl 0
+flop 0
+implode 0 0.5
+audiopitch 0 2**(11/12)|{set:e|GOO GOO GAA GAA}
+swaprgba 0 bgr
+audiopitch 0 2|{set:e|Braxton’s G-Major 57}
+{set:s|thatoneguynobodyinvited}
+audiopitch 0 2**(-0.5)
+audiopitch 1 2**(1/4)
+overlay 0 1
+hueshifthsv 0 60
+swaprgba 0 bgr
+volume 0 2|{set:e|G-Major 4}
+audiopitch 1 2**(5/12)
+overlay 0 1
+huecurvergba 0 red 0 1 0
+huecurvergba 0 green 0 1 0
+huecurvergba 0 blue 0 1 0
+volume 0 2|{set:e|CoNfUsIoN}
+hueshifthsv 0 180
+invert 0
+haah 0
+audioreverse 0|{set:e|G-Major 4 + CoNfUsIoN}
+audiopitch 1 2**(5/12)
+overlay 0 1
+huecurvergba 0 red 1 0 1
+huecurvergba 0 green 1 0 1
+huecurvergba 0 blue 1 0 1
+audioreverse 0
+hueshifthsv 0 180
+haah 0
+volume 0 2|{set:e|Devil’s Blast}
+audiopitch 1 0.5
+audiopitch 0 2**(-5/12)
+swaprgba 0 r00
+huecurvergba 0 red 0.5 0
+overlay 0 1
+rotate 0 90
+waves 0 w/40 w/5 5
+rotate 0 -90
+cover 0 w h
+volume 0 2|{set:e|G-Major}
+audiopitch 1 0.5
+audiopitch 2 2**(-5/12)
+audiopitch 3 2**(1/3)
+audiopitch 4 2**(7/12)
+audiopitch 5 2
+{foreach:5|overlay 0 {math:{get:idx}+1}}
+invert 0
+volume 0 5|{set:e|Crying}
+audiopitch 1 2**(-5/12)
+overlay 0 1
+invert 0
+hueshifthsv 0 221.4
+wave 0 -w/50 w/5
+cover 0 w h
+volume 0 2|{set:e|G-Major 2}
+audiopitch 1 2**(1/3)
+audiopitch 2 2**(-5/12)
+overlay 0 1
+overlay 0 2
+invertrgba 0 0 1
+volume 0 3|{set:e|Invert Color}
+hueshifthsv 0 180|{set:e|RGB To BGR}
+swaprgba 0 bgr|{set:e|RGB To BGR Reversed}
+swaprgba 0 bgr
+reverse 0|{set:e|CoNfUsIoN Reversed}
+audioreverse 0
+reverse 0
+hueshifthsv 0 180
+invert 0
+haah 0|{set:e|Inverted, Black and White, Reversed, High Pitched}
+invert 0
+grayscale 0
+reverse 0
+audiopitch 0 2|{set:e|Pitch Black}
+audiopitch 0 0.25
+huecurvergba 0 red 0 0.25 1
+huecurvergba 0 green 0 0.25 1
+huecurvergba 0 blue 0 0.25 1|{set:e|Asleep}
+audiopitch 1 2**(-0.5)
+audiopitch 0 2**(-0.25)
+overlay 0 1
+invert 0
+hueshifthsv 0 97.92
+wave w*0.027 w/11.5|{set:e|U-Major}
+audiopitch 0 2**(1/3)
+audiopitch 1 2**(5/12)
+audiopitch 2 2**(1/2)
+overlay 0 1
+overlay 0 2
+flop 0
+swaprgba 0 bgr
+invert 0
+rotate 0 90
+waves 0 w/40 w/5 5
+rotate 0 -90
+volume 0 3|{set:e|Low Voice}
+hueshifthsv 0 180
+haah 0
+audiopitch 0 2**(-5/12)
+speed 0 0.75|{set:e|Slow Voice}
+speed 0 0.84
+hueshifthsv 0 115.2
+audiopitch 2**(-1/4)|{set:e|Lost Effect}
+audiopitch 0 2**(-2/3)
+audiopitch 1 2
+audiopitch 1 2**(1/3)
+overlay 0 1
+hueshifthsv 0 180
+volume 0 2|{set:e|Hitting}
+audiopitch 0 2**(-2/3)
+audiopitch 1 2**(-5/12)
+audiopitch 2 2**(7/12)
+overlay 0 1
+overlay 0 2
+invert 0
+hueshifthsv 0 125
+rotate 0 90
+wave 0 h/20 h/5
+rotate 0 -90
+cover 0 w h
+volume 0 3|{set:e|FKFJGRH170499}
+audiopitch 0 2**(-7/12)
+audiopitch 1 2**(-1/3)
+audiopitch 2 2**(-1/12)
+overlay 0 1
+overlay 0 2
+invert 0
+hueshifthsv 0 52.92
+rotate 0 90
+wave 0 h/20 h/5
+rotate 0 -90
+cover 0 w h
+swirl 0 -150
+rotate 0 90
+wave 0 h/20 h/5 5
+rotate 0 -90
+cover 0 w h
+volume 0 3|{set:e|Sad}
+audiopitch 1 2**(-7/12)
+overlay 0 1
+invert 0
+hueshifthsv 0 223.2
+wave 0 w/20 w/1.5
+cover 0 w h
+volume 0 2|{set:e|Happy}
+audiopitch 1 2**(1/3)
+audiopitch 0 2
+overlay 0 1
+invert 0
+hueshifthsv 0 180
+wave 0 -w/20 w/1.5
+cover 0 w h
+volume 0 2|{set:e|G-Major 5}
+audiopitch 1 2**(1/3)
+overlay 0 1
+invertrgba 1 0 0
+volume 0 2|{set:e|Angry}
+audiopitch 1 2**(-1/6)
+overlay 0 1
+audiodestroy 0
+swaprgba 0 bgr
+hueshifthsv 0 54
+haah 0
+invert 0
+implode 0 0.5|{set:e|Even X Discontinues}
+hueshifthsv 0 -50
+swirl 0 120
+rotate 0 90
+waves 0 w/40 w/8 2.5
+rotate 0 -90
+swirl 0 -120
+audiopitch 0 0.64516
+cover 0 w h|{set:e|I Sused X}
+hueshifthsv 0 100
+rotate 0 90
+waves 0 w/40 w/8 2.5
+rotate 0 -90
+cover 0 w h
+detunnel 0
+wiggle 0 right 10 1
+tunnel 0
+audiopitch 0 2/3|{set:e|Deaf}
+audiopitch 0 2
+audiopitch 0 2
+audiopitch 1 2
+audiopitch 1 2**(5/6)
+overlay 0 1
+volume 0 0.5
+swaprgba 0 bgr
+invert 0
+hueshifthsv 0 216
+crop 0 w/2 h w/2
+join 0 0
+haah 0
+explode 0 2
+crop 0 w/2 h
+join 0 0
+waaw 0|{set:e|Deaf Major}
+audiopitch 0 2
+audiopitch 0 2**(5/6)
+audiopitch 1 2
+audiopitch 1 2
+audiopitch 2 2
+audiopitch 2 2
+audiopitch 2 2**(1/4)
+audiopitch 3 2
+audiopitch 3 2
+audiopitch 3 2**(5/12)
+overlay 0 1
+overlay 0 2
+overlay 0 3
+volume 0 0.75
+invert 0
+join 0 0
+haah 0
+crop 0 w h w/4
+explode 0 1.333
+crop 0 w/2 h w/4
+join 0 0
+waaw 0|{set:e|Does Respond}
+audiopitch 1 0.5
+overlay 0 1
+hueshifthsv 0 -60
+swirl 0 -150
+volume 0 2|{set:e|G-Major 16}
+audiopitch 0 2**(-1/4)
+overlay 0 1
+hueshifthsv 0 -150
+flop 0
+invert 0
+volume 0 2|{set:e|Oppp Oppo}
+audiopitch 0 2
+audiopitch 0 2
+shake 0 20 0 true
+grayscale 0
+huecurvergba 0 red 0 0 1
+huecurvergba 0 green 0 1 1
+huecurvergba 0 blue 0 1 1
+waaw 0
+hooh 0|{set:e|Xiaomi Major}
+{set:s|meatloaf_fan534}
+audiopitch 0 2**(-2.5/12)
+audiopitch 1 2**(2.5/12)
+overlay 0 1
+flop 0
+invert 0
+contrast 0 -1
+invert 0
+hueshifthsv 0 180
+volume 0 2|{set:e|CLE65’s G-Major 81}
+audiopitch 0 2**(-4/3)
+audiopitch 1 2**(-2/3)
+audiopitch 2 2**(7/12)
+overlay 0 1
+overlay 0 2 
+invert 0
+swaprgba 0 bgr
+hueshifthsv 0 120 200
+implode 0 0.5
+volume 0 3|{set:e|G-Major 14}
+audiopitch 0 0.5
+audiopitch 2 2
+audiopitch 2 2**(1/3)
+overlay 0 1
+overlay 0 2
+grayscale 0
+invert 0
+swaprgba 0 00b
+haah 0
+woow 0
+volume 0 3|{set:e|G-Major 11}
+grayscale 0
+invert 0
+waaw 0
+audiopitch 0 2
+audiopitch 0 2**(1/6)|{set:e|G-Major By Ltv Mca}
+audiopitch 1 2**(-1/3)
+overlay 0 1
+grayscale 0
+swaprgba 0g0
+invert 0
+swirl 0 -100
+volume 0 2|{set:e|G-Major 100}
+audiopitch 0 2**(-1/12)
+audiopitch 1 2**(-5/12)
+overlay 0 1
+swaprgba 0 bgr
+hueshifthsv 0 100
+haah 0
+wave 0 h/20 w
+cover 0 w h
+rotate 0 90
+wave 0 -w/20 h
+rotate 0 -90
+cover 0 w h
+volume 0 2|{set:e|G-Major 48}
+audiopitch 1 100/85
+overlay 0 1
+hueshifthsv 0 -120
+swirl 0 -250
+volume 0 2|{set:e|Georgian CoNfUsIoN}
+swaprgba 0 bgr
+{choose:haah|waaw} 0
+wave 0 h/30 w
+cover 0 w h
+audioreverse 0|{set:e|AALI}
+load https://cdn.discordapp.com/attachments/1502102376440529048/1535786007985786941/seesaw.0077c7cc.mp3?ex=6a8f712d&is=6a8e1fad&hm=0c56b64d89f916075aab4ff9c025a3560d5ce94765bdb49f55e07de83016e45e& audio
+rotate 0 90
+waves 0 w/60 h/6 4
+rotate 0 -90
+cover 0 w h
+audioputreplace 0 audio|{set:e|Weird X (Mercator, TEKMVVM3757 Strategy)}
+copy 0 1
+resize 0 w/2 h/2
+audiopitch 0 2**(7/12)
+overlay 0 1
+hueshifthsv 0 180
+invert 0
+speed 0 0.25
+rotate 0 90
+foreachframe 0 0 fc*4 "wave $x w*0.04 h/(idx+1)/8.8*34680/(fc/d)"
+rotate 0 -90
+cover 0 w h|{set:e|X Pranks}
+{set:s|meatloaf_fan534}
+load https://cdn.discordapp.com/attachments/1502102376440529048/1536253346829045770/convert.97c444e0.mp3?ex=6a7abaec&is=6a79696c&hm=bb8c2ac85983a2cbbd2b6bad130563b01d088f8cd52227c8f345eca8bd6dede0& audio
+hueshifthsv 0 60 100 20
+crop 0 w*0.6 h
+copy 0 0a
+flop 0a
+resize 0a w*0.4 h
+join 0 0a
+waves 0 -(h+w)/20 w 10
+cover 0 w h
+rotate 0 -90
+waves 0 -(h+w)/20 h 10
+rotate 0 90
+cover 0 w h
+repeatduration audio 0
+audioputreplace 0 audio|{set:e|Green Solarize}
+{set:s|meatloaf_fan534}
+grayscale 0
+swaprgba 0 0g0
+huecurvergba 0 green 0 195/255 144/255 94/255 0|{set:e|LTKC Map}
+grayscale 0
+huecurvergba 0 red 1 1 0
+huecurvergba 0 green 0 1 0
+swaprgba 0 rg0
+audiopitch 0 2**(1/12)|{set:e|Cold Major}
+grayscale 0
+swaprgba 0 0gb
+huecurvergba 0 green 0.02 0.2 0.02 0.04
+huecurvergba 0 blue 1/3.14 1/3 2.4/9 1/1.2
+audiopitch 0 10/11|{set:e|G-Major 91}
+haah 0
+swaprgba 0 bgr
+hueshifthsv 0 180
+resize 0 512 512
+rotate 0 -90
+distort 0 arc 30 90
+contain 0 640 512
+distort 0 bilinear_forward 88 70 -116 -74 60 303 -48 395 550 30 642 -24 553 382 642 368
+resize 0 w h
+audiopitch 1 2**(1/12)
+audioputmix 0 1|{set:e|Divided}
+swaprgba 0 bgr
+flop 0
+resize 0 512 512
+rotate 0 -90
+distort 0 arc 30 90
+contain 0 640 512
+distort 0 bilinear_forward 88 70 -116 -74 60 303 -48 395 550 30 642 -24 553 382 642 368
+resize 0 w h
+flop 0
+audiopitch 0 0.5|{set:e|A-Major}
+invert 0
+hueshifthsv 0 150
+waaw 0
+swirl 0 100
+audiopitch 0 100/72
+audiopitch 1 100/54
+audioputmix 0 1
+volume 0 2|{set:e|G-Major 74}
+hueshifthsv 0 180
+invert 0
+explode 0
+audiopitch 0 2**(-5/6)
+audiopitch 1 2**(3/4)
+audiopitch 2 2
+audiopitch 2 2**(1/6)
+audioputmix 0 1
+audioputmix 0 2
+volume 0 3|{set|e:You Wiggled X}
+hueshifthsv 0 70
+haah 0
+rotate 0 90
+wave 0 w*0.02 h/5
+rotate 0 -90
+cover 0 w h
+wave 0 h*0.02 w/5
+cover 0 w h
+audiopitch 0 2
+audiopitch 0 1.11|{set:e|X Wants to Scare You}
+foreachframe 0 0 fc "rotate 0x -360*idx/fc none true"
+foreachframe 0 0 fc "crop 0x (w-1)*(1-idx/fc)+23 (h-1)*(1-idx/fc)+13 w*idx/fc/2 h*idx/fc/2"
+grayscale 0
+huecurvergba 0 red 1 1 0 0 0 1 1
+huecurvergba 0 green 0 1 1 1 0 0 0
+huecurvergba 0 blue 0 0 0 1 1 1 0
+audiopitch 0 2**(-1/3)
+audiodestroy 0|{set:e|LOL}
+create bg w h 0 0 255 100
+overlay bg 0 0 0 #000000 0.1 0.2
+overlay 0 bg
+create bg2 w h 255 0 0 100
+overlay bg2 0 0 0 #ffffff 0.1 0.2
+overlay 0 bg2
+audioputreplace 0 1
+audiopitch 0 2
+audiopitch 0 2|{set:e|Pitch White}
+create bg w h 255 255 255 100
+overlay bg 0 0 0 #000000 0.1 0.4
+overlay 0 bg
+audioputreplace 0 1
+audiopitch 0 2
+audiopitch 0 2|{set:e|Weird X (Lazy Butterfly)}
+audiopitch 0 2
+audiopitch 0 2**(1/3)
+hueshifthsv 0 180
+invert 0
+detunnel 0
+wiggle 0 right 30 4
+tunnel 0
+resize 1 w/2 h/2
+speed 0 1/3
+speed 1 1/3
+overlay 0 1 w/4 h/4
+volume 0 2|{set:e|Preny Chipy}
+blur 0 20
+audiopitch 1 2**(-1.5/12)
+audiopitch 2 2**(-7/12)
+overlay 0 1 0 0 #ffffff 0.75 0
+audioputmix 0 2
+volume 0 3|{set:e|HuE cYcLe OnLy}
+swaprgba 0 r00
+foreachframe 0 0 fc "hueshifthsv 0x 360*idx/fc"
+audiopitch 0 2**(-2/3)
+audiopitch 1 2**(-1/4)
+audiopitch 2 2**(1/12)
+audiopitch 3 2**(1/3)
+audiopitch 4 2**(3/4)
+audiopitch 5 2
+audiopitch 5 2**(1/12)
+audiopitch 6 2
+audiopitch 6 2**(1/3)
+{foreach:6|audioputmix 0 {math:{get:idx}+1}
+{newline}}
+volume 0 7|{set:e|1990’s Wave Effect}
+rotate 0 -90
+waves 0 w*0.02 h/5 10
+rotate 0 90
+cover 0 w h
+hueshifthsv 0 120
+audiopitch 0 100/85|{set:e|Numberblocks 3 Major}
+grayscale 0
+swaprgba 0 rg0
+audiopitch 0 100/55|{set:e|Loud}
+create bg w h 0 255 255 100
+overlay bg 0 0 0 #000000 0.1 0.4
+overlay 0 bg
+audioputreplace 0 1
+audiopitch 0 2**(-1/3)
+audiodestroy 0|{set:e|G-Major 377}
+contrast 0 -1
+waaw 0
+rotate 0 90
+waves 0 w/40 w/5 5
+rotate 0 -90
+cover 0 w h
+audiopitch 0 2**(-5/12)
+audiopitch 1 2**(-1/6)
+audiopitch 2 2**(3/4)
+audiopitch 3 2
+audiopitch 4 2
+audiopitch 4 2**(5/12)
+{foreach:4|audioputmix 0 {math:{get:idx}+1}
+{newline}}
+volume 0 5|{set:e|K-Major 302}
+flip 0
+hueshifthsv 0 0 200
+audiopitch 1 2**(-5/4)
+audioputmix 0 1
+volume 0 2|{set:e|Second Guess Thursday Major}
+grayscale 1
+huecurvergba 1 all 1 1 0
+overlay 1 0 0 0 #ffffff 0.5 0.3
+audiopitch 0 2**(-5/6)
+audiopitch 1 2**(-1/3)
+audiopitch 2 2**(-1/4)
+audiopitch 3 2**(-1/6)
+audiopitch 4 2**(1/12)
+overlay 0 1
+audioputmix 0 2
+audioputmix 0 3
+audioputmix 0 4
+volume 0 5|{set:e|G-Major 58}
+swirl 0 -100
+cover 0 w h/2
+resize 0 w h
+swirl 0 100
+hueshifthsv 0 54
+audiopitch 0 2**0.5
+reverse 0|{set:e|McLaren Major}
+swirl 0 -100
+cover 0 w h/2
+resize 0 w h
+swirl 0 100
+hueshifthsv 0 54
+audiopitch 0 2**0.5|{set:e|G-Major 58 (Old)}
+create bg w h 0 255 0 255
+overlay bg 0 0 0 #240377 0.005 0.05
+overlay 0 bg
+create bg2 w h 0 255 0 255
+overlay bg2 0 0 0 #60538e 0.005 0.05
+overlay 0 bg2
+explode 0
+audiopitch 0 2
+audiopitch 1 2**(-1/12)
+audiopitch 2 0.5
+audiopitch 3 0.25
+audioputmix 0 1
+audioputmix 0 2
+audioputmix 0 3|{set:e|Ugly Major}
+hueshifthsv 0 180
+invert 0
+explode 0
+audiopitch 1 1/1.6
+audiopitch 2 1/0.8
+audiopitch 3 2
+audiopitch 3 1/0.8
+audiopitch 4 1/1.35|{set:e|G-Simplified Major 1}
+invert 0
+hueshifthsv 0 88.2
+rotate 0 90
+waves 0 w/100 h*5 10
+rotate 0 -90
+cover 0 w h
+audiopitch 1 0.5
+audiopitch 2 2**(-7/12)
+audiopitch 3 2**(-1/3)
+audiopitch 4 2**(5/12)
+audiopitch 5 2**(2/3)
+audiopitch 6 2
+{foreach:6|audioputmix 0 {math:{get:idx}+1}
+{newline}}|{set:e|Fruit Punch Major}
+grayscale 0
+huecurvergba 0 red 105/255 210/255 240/255 225/255 108/255 0
+huecurvergba 0 green 27/255 18/255 140/255 200/255 255/255 208/255
+huecurvergba 0 blue 0 0 0 0 0 1
+audiopitch 0 2**(1/6)
+audiopitch 1 2**0.5
+audiopitch 2 2**(-5/6)
+audiopitch 3 2**-0.5
+audioputmix 0 1
+audioputmix 0 2
+audioputmix 0 3|{set:e|G-Major 8 (LETOT)}
+swaprgba 0 bgr
+audiopitch 0 2**(-2/3)
+audiopitch 1 2
+audiopitch 1 2**(1/3)
+audioputmix 0 1|{set:e|Poplar Forest Major}
+grayscale 0
+swaprgba 0 1gb
+huecurvergba 0 green 155/255 116/255 0
+huecurvergba 0 blue 0 85/255 0
+audiopitch 0 2**(5.75/12)
+audiopitch 1 2**(-5.75/12)
+audioputmix 0 1|{set:e|G-Major 545}
+wave 0 h*0.054 w/5.45
+cover 0 w h
+rotate 0 90
+wave 0 w*0.054 h/2.745
+rotate 0 -90
+cover 0 w h|{set:e|Going Weirdness Every}
+foreachframe 0 0 0fc "cover 0x (0w*(1-((idx/0fc)**2/2))) 0h"
+audiopitch 0 5/6
+audiopitch 1 5/8
+audioputmix 0 1|{set:e|G-Major 262 (freakzinga)}
+hueshifthsv 0 180
+explode 0
+motionblur 0 50
+audiopitch 0 2**(-23/12)
+audiopitch 1 2**(1/6)
+audioputmix 0 1|{set:e|Q-Major 34}
+foreachframe 0 0 fc/2 "huecurvergba 0x all abs(1-(idx/fc*2)) 1"
+foreachframe 0 fc/2 fc "huecurvergba 0x all 0 1-abs(1-(idx/fc*2))"
+swaprgba 0 rgb
+huecurvergba 0 all 0.495,0 0.505,1
+audiopitch 0 2**(1/24)
+volume 0 5|{set:e|Illiterate}
+invert 0
+hueshifthsv 0 120
+wave 0 h*0.04 w/6.77
+cover 0 w h
+audiopitch 1 2**(-5/6)
+audioputmix 0 1
+volume 0 2|{set:e|5-DXI}
+{set:s|meatloaf_fan534}
+shake 0 0 5 1
+swirl 0 50
+explode 0 0.5
+hueshifthsv 0 32
+invertrgba 0 0 0 1
+hueshifthsv 0 100
+audiopitch 0 2**(-4.5/12)
+audiopitch 1 2**(5/12)
+audioputmix 0 1
+volume 0 2|{set:e|G-Major 12.16}
+haah 0
+grayscale 0
+huecurvergba 0 red 0.5 1
+huecurvergba 0 green 0 1
+huecurvergba 0 blue 1 0
+flop 0
+waves 0 h*0.04 w 2
+flop 0
+cover 0 w h
+rotate 0 90
+waves 0 w*0.04 h 2
+rotate 0 -90
+cover 0 w h
+audiopitch 0 2
+audiopitch 1 2
+audiopitch 1 2**(1/3)
+audioputmix 0 1
+volume 0 2|{set:e|un3u3}
+{set:s|meatloaf_fan534}
+hueshifthsv 0 180
+audiopitch 0 2**(1/3)|{set:e|un3n3}
+invert 0
+contrast 0 -1
+audiopitch 0 2**(1/3)|{set:e|Weird Code}
+audiopitch 0 2**(-1/3)
+{foreach:5|audiovibrato 0 10 1
+{newline}}
+waaw 0
+hueshifthsv 0 180
+swirl 0 -100|{set:e|G-Major 1 (LETOT)}
+hueshifthsv 0 180
+haah 0
+swirl 0 100
+audiopitch 0 2
+audiopitch 1 2
+audiopitch 1 2
+audiopitch 2 2**(-1/4)
+audiopitch 3 2**(-1/12)
+audiopitch 4 2**(7/12)
+audioputmix 0 1
+audioputmix 0 2
+audioputmix 0 3
+audioputmix 0 4
+volume 0 5|{set:e|L-Major 3}
+swaprgba 0 r00
+huecurvergba 0 red 0.5 1
+rotate 0 90
+foreachframe 0 0 fc/1.9 "wave 0x w*0.04 h/((idx+1)/fc*2)"
+flop 0
+reverse 0
+foreachframe 0 0 fc/1.9 "wave 0x w*-0.04 h/((idx+1)/fc*2)"
+flop 0
+reverse 0
+rotate 0 -90
+cover 0 w h
+audiopitch 1 2**(1/12)
+audiopitch 2 2**(-1/12)
+audioputreplace 0 3
+audioputmix 0 1
+audioputmix 0 2
+volume 0 3|{set:e|Percy}
+{set:s|meatloaf_fan534}
+hueshifthsv 0 180
+audiopitch 0 2**(5/12)|{set:e|Custom Major 3}
+hueshifthsv 0 171
+haah 0
+audiopitch 1 2**(1/120)
+audioputmix 0 1
+volume 0 2|{set:e|Custom Major 333}
+invert 0
+rotate 0 -1.14592 none true
+audiopitch 1 2**(-1/60)
+audioputmix 0 1
+volume 0 2|{set:e|H-Major 200}
+{set:s|meatloaf_fan534}
+wave 0 -h/10 w/2
+cover 0 w h
+hueshifthsv 0 -130
+audiopitch 0 100/123|{set:e|Mirror and Other}
+flop 1
+audiopitch 0 1/1.6
+audiopitch 1 1/1.55
+overlay 0 1 0 0 #000000 0 0 false 50
+volume 0 2|{set:e|Mirror and Other 2.0}
+flop 0
+audiopitch 0 2**(-1/12)
+rotate 1 90
+resize 1 w h
+audiopitch 1 2**(1/6)
+rotate 2 90
+resize 2 w h
+flop 2
+volume 2 0
+overlay 1 2 0 0 #000000 0 0 false 50
+overlay 0 1 0 0 #000000 0 0 false 30|{set:e|G-Major 305}
+hueshifthsv 0 120
+audiopitch 0 2
+audiopitch 1 2**(-7/12)
+audioputmix 0 1
+volume 0 2|{set:e|G-Minor 305}
+hueshifthsv 0 -120
+audiopitch 0 0.5
+audiopitch 1 2**(7/12)
+audioputmix 0 1
+volume 0 2|{set:e|E-Minor 16}
+grayscale 0
+huecurvergba 0 red 0 1 1
+swaprgba 0 rrb
+huecurvergba 0 blue 0 0 1
+audiopitch 0 2
+audiopitch 1 2**(-7/12)
+audioputmix 0 1
+volume 0 2|{set:e|E-Major 16}
+grayscale 0
+huecurvergba 0 red 1 0 0
+swaprgba 0 rrb
+huecurvergba 0 blue 1 1 0
+audiopitch 0 2
+audiopitch 1 2**(-7/12)
+audioputmix 0 1
+volume 0 2|{set:e|Braxton’s G-Major 191}
+explode 0
+haah 0
+create bg w h 0 255 255 255
+overlay bg 0 0 0 #000000 0.1 0.4
+overlay 0 bg
+hueshifthsv 0 62
+audiopitch 0 2
+audiopitch 1 2**(-7/12)
+audioputmix 0 1
+volume 0 2|{set:e|Custom Major 305}
+invert 0
+rotate 0 -2 none true
+audiopitch 0 2
+audiopitch 1 2**(-7/12)
+audioputmix 0 1
+volume 0 2|{set:e|CCTVE2K11’s G-Major 84}
+swaprgba 0 rbg
+explode 0
+audiopitch 0 2
+audiopitch 1 2**(-7/12)
+audioputmix 0 1
+volume 0 2|{set:e|Too Ruins Tree}
+swaprgba 0 rbg
+explode 0
+audiopitch 0 2
+audiopitch 0 2**(1/3)|{set:e|BlockDashKing’s G-Major 12}
+invert 0
+audiopitch 0 2
+audiopitch 1 2**(-7/12)
+audioputmix 0 1
+volume 0 2|{set:e|DGF’s G-Major 5}
+flip 0
+grayscale 0
+huecurvergba 0 red 1 1 0
+huecurvergba 0 green 1 0 0
+huecurvergba 0 blue 1 40/51 0
+audiopitch 0 2
+audiopitch 1 2**(-7/12)
+audioputmix 0 1
+volume 0 2|{set:e|Katie’s G-Major 17}
+hueshifthsv 0 180
+flop 0
+explode 0 0.0333
+audiopitch 0 2
+audiopitch 1 2**(-7/12)
+audioputmix 0 1
+volume 0 2|{set:e|GM4TOT’s G-Major 13}
+contrast 0 -1
+invert 0
+audiopitch 0 2
+audiopitch 1 2**(-7/12)
+audioputmix 0 1
+volume 0 2|{set:e|STTTLE6121’s G-Major 113}
+hueshifthsv 0 -100
+explode 0
+audiopitch 0 2
+audiopitch 1 2**(-7/12)
+audioputmix 0 1
+volume 0 2|{set:e|TKCF2012’s G-Major 149}
+hueshifthsv 0 60
+flop 0
+swirl 0 60
+audiopitch 0 2
+audiopitch 1 2**(-7/12)
+audioputmix 0 1
+volume 0 2|{set:e|TAITOT525’s G-Major 5}
+grayscale 0
+huecurvergba 0 red 1 0 0
+huecurvergba 0 green 1 0 1
+huecurvergba 0 blue 0 0 1
+audiopitch 0 2
+audiopitch 1 2**(-7/12)
+audioputmix 0 1
+volume 0 2|{set:e|Pika Major}
+hueshifthsv 0 24 300
+audiopitch 1 2**(7/12)
+audiopitch 2 2**(-7/12)
+audioputmix 0 1
+audioputmix 0 2|{set:e|G-Major 37}
+invert 0
+audiopitch 0 2**(11.53/12)|{set:e|G-Major 7}
+invert 0
+audiopitch 1 2**(1/4)
+audioputmix 0 1|{set:e|ZooPals Effect V4}
+swaprgba 0 bgr
+spin 0 false false true
+wave 0 w/40 w/3
+cover 0 w h
+rotate 0 90
+wave 0 w/40 w/3
+rotate 0 -90
+cover 0 w h
+audiopitch 0 2
+audiopitch 1 2
+audiopitch 2 2
+{set:y|0}
+{foreach:3|{foreach:4|audiovibrato {get:y} 20+{get:y}*10 1
+{newline}}
+{set:y|{math:{get:y}+1}}
+{newline}}
+audioputmix 0 1
+volume 0
+audioputmix 0 2
+volume 0
+overlay 3 0
+copy 4 0
+audiodelay 3 0.05
+volume 3 0.5
+audiopitch 3 2
+audiodelay 4 0.1
+volume 4 0.25
+audiopitch 4 2
+audiopitch 4 2
+audioputmix 0 3
+volume 0
+audioputmix 0 4
+volume 0|{set:e|ZooPals Effect V7}
+rotate 0 -10
+cover 0 w h
+implode 0 0.5
+zoom 0 1.4
+swirl 0 90
+audiopitch 0 2**(-1/4)
+audiopitch 1 2**(1/6)
+audioputmix 0 1|{set:e|G-Major 941}
+load https://cdn.discordapp.com/attachments/1544351383631691776/1544358720916688957/youtube-VpfkuKejVIc.mkv.5811c281.mp4?ex=6a9837a3&is=6a96e623&hm=2342d76e053dfbbb8a4367948df8ba8723a21bddaf17c67e9456a81862294fcd& a
+explode 0 2
+swirl 0 -135
+repeatduration a d
+audioputreplace 0 a|{set:e|G-Major 20}
+crop 1 w/2 h w/2 0
+audiopitch 1 2**(-1/12)
+hueshifthsv 1 -60
+overlay 0 1 w/2
+volume 0 2|{set:e|G-Major 6}
+huecurvergba 0 all 0.595,0 0.605,1
+audiopitch 1 2**(-2/3)
+audioputmix 0 1
+volume 0 2|{set:e|G-Major 8}
+huecurvergba 0 all 0.245,1 0.255,0
+hueshifthsv 0 180
+audiopitch 1 2**(-7/12)
+audioputmix 0 1
+volume 0 2|{set:e|G-Major 11}
+grayscale 0
+invert 0
+waaw 0
+audiopitch 0 2
+audiopitch 0 2**(1/6)|{set:e|G-Major 763}
+invert 0
+haah 0
+audiopitch 0 0.5
+audiopitch 1 2
+audiopitch 2 2
+audiopitch 2 2
+audioputmix 0 1
+volume 0 2
+audioputmix 0 2
+volume 0 1.5|{set:e|G-Major 12}
+hueshifthsv 0 -54 100
+create bg w h 0 0 0 255
+overlay bg 0 0 0 #ffffff 0.1 0.4
+overlay 0 bg
+audiopitch 0 2**(-3/4)
+audiopitch 1 2**(-1/6)
+audiopitch 2 2**(1/4)
+audiopitch 3 2**(7/12)
+audiopitch 4 2**(5/6)
+audiopitch 5 2
+audiopitch 5 2**(1/4)
+audioputmix 0 1
+audioputmix 0 2
+audioputmix 0 3
+audioputmix 0 4
+audioputmix 0 5
+volume 0 6|{set:e|G-Major 91 V2}
+cover 0 w/2 h/1.5
+flop 0
+hueshifthsv 0 180 -50
+resize 0 w h
+audiopitch 0 2**(1/6)
+audiopitch 1 2**(-1/6)
+audiopitch 2 2**(-1/2)
+audioputmix 0 1
+audioputmix 0 2|{set:e|G-Major 15}
+wave 0 -h*0.04 w/5
+cover 0 w h
+audiopitch 1 2**(5/12)
+audioputmix 0 1
+audiodestroy 0|{set:e|Rj Kumar’s G-Major 9}
+invert 0
+audiopitch 1 2**(-1/6)
+audioputmix 0 1|{set:e|X Is High}
+ffmpeg -i $FILE_1 -vf format=yuv444p,scale=640:640,"geq='p(X-((sin((T*0+(6.283*1/$(ffprobe -i $FILE_1 -show_entries format=duration -v quiet -of csv=p=0)))+(Y/H)*(PI*32*T/$(ffprobe -i $FILE_1 -show_entries format=duration -v quiet -of csv=p=0))))*(-15*20*T/$(ffprobe -i $FILE_1 -show_entries format=duration -v quiet -of csv=p=0))),Y-((sin((T*0+(6.283*1/$(ffprobe -i $FILE_1 -show_entries format=duration -v quiet -of csv=p=0)))+(X/W)*(PI*32*T/$(ffprobe -i $FILE_1 -show_entries format=duration -v quiet -of csv=p=0))))*(-15*20*T/$(ffprobe -i $FILE_1 -show_entries format=duration -v quiet -of csv=p=0))))'",scale=$w:$h,format=yuv420p -af vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1,vibrato=d=1:f=1 -c:v ffv1 -c:a pcm_s16le|{set:e|Chorded}
+-vf "split=3[a][b][t];[a]format=gray,curves=r=0/1 0.5/0 1/0:g=0/1 0.5/0 1/1:b=0/1 0.5/1 1/1[aa];[b]format=gray,curves=all=0/1 0.5/1 1/1[bb];[aa][bb]alphamerge[c];[t][c]overlay" -c:v ffv1 -c:a pcm_s16le a$i.mp4
+curl -sSL "https://github.com/GanerCodes/AutotuneBot/raw/refs/heads/main/autotune.exe" -o ./autotune.exe
+chmod +x ./autotune.exe
+ffmpeg -i a$i.mp4 -af aphaseshift=order=16:shift=1,aphaseshift=order=16:shift=1,aphaseshift=order=16:shift=1,aphaseshift=order=16:shift=1,aphaseshift=order=16:shift=1,aphaseshift=order=16:shift=1 -ac 1 -ar 48000 mod$i.wav
+ffmpeg -stream_loop -1 -i "https://cdn.discordapp.com/attachments/1502102376440529048/1545100028182265947/convert.b71ecac3.mp3?ex=6a9aea09&is=6a999889&hm=bbccb761724f7451ad7b7c38ec1707c0af8b68f2037fb1e7e7ec993ee1c038c3&" -ac 1 -ar 48000 -t $d carr$i.wav
+wine cmd &>/dev/null && wine ./autotune.exe -q -b 128 -w 1024 -N -v 10 mod$i.wav carr$i.wav aud$i.wav
+ffmpeg -i a$i.mp4 -i aud$i.wav -af highpass=200,bass=g=-10,alimiter=limit=0.2:latency=1 -map 0:v -map 1:a -c:v ffv1 -c:a pcm_s16le|{set:e|20th X}
+-vf movie=$(magick hald:6 -modulate 100,100,0 imagemagick.ppm; echo imagemagick.ppm),"[in]haldclut,format=rgb48le","curves=r='0/0.118 1/1':g='0/0.0118 1/1':b='0/0 1/1'" -c:v ffv1 -c:a pcm_s16le a$i.mp4
+curl -sSL "https://github.com/GanerCodes/AutotuneBot/raw/refs/heads/main/autotune.exe" -o ./autotune.exe
+chmod +x ./autotune.exe
+ffmpeg -i a$i.mp4 -af aphaseshift=order=16:shift=1,aphaseshift=order=16:shift=1,aphaseshift=order=16:shift=1,aphaseshift=order=16:shift=1,aphaseshift=order=16:shift=1,aphaseshift=order=16:shift=1 -ac 1 -ar 48000 mod$i.wav
+ffmpeg -stream_loop -1 -i "https://cdn.discordapp.com/attachments/560593330270896129/1544408545750028328/TCF_1994_Fanfare_Looped.wav?ex=6a9a604b&is=6a990ecb&hm=39588c183130e967a19da56c8897311f26ff7f274f4136beeff3d35c7ab4b84b&" -ac 1 -ar 48000 -t $d carr$i.wav
+wine cmd &>/dev/null && wine ./autotune.exe -q -b 128 -w 1024 -N -v 10 mod$i.wav carr$i.wav aud$i.wav
+ffmpeg -i a$i.mp4 -i aud$i.wav -af highpass=200,bass=g=-10,alimiter=limit=0.2:latency=1 -map 0:v -map 1:a -c:v ffv1 -c:a pcm_s16le|{set:e|Poor 20th X}
+-vf movie=$(magick hald:6 -modulate 100,100,0 imagemagick.ppm; echo imagemagick.ppm),"[in]haldclut,format=rgb48le" -c:v ffv1 -c:a pcm_s16le a$i.mp4
+curl -sSL "https://github.com/GanerCodes/AutotuneBot/raw/refs/heads/main/autotune.exe" -o ./autotune.exe
+chmod +x ./autotune.exe
+ffmpeg -i a$i.mp4 -af aphaseshift=order=16:shift=1,aphaseshift=order=16:shift=1,aphaseshift=order=16:shift=1,aphaseshift=order=16:shift=1,aphaseshift=order=16:shift=1,aphaseshift=order=16:shift=1 -ac 1 -ar 48000 mod$i.wav
+ffmpeg -stream_loop -1 -i "https://cdn.discordapp.com/attachments/1502102376440529048/1545112655541436447/Poor_20th_X.wav?ex=6a9af5cb&is=6a99a44b&hm=4f3f89c28c624af6344664b177281fa01e192e9647847aa3a24bbc099fd1e69c&" -ac 1 -ar 48000 -t $d carr$i.wav
+wine cmd &>/dev/null && wine ./autotune.exe -q -b 128 -w 1024 -N -v 10 mod$i.wav carr$i.wav aud$i.wav
+ffmpeg -i a$i.mp4 -i aud$i.wav -af highpass=200,bass=g=-10,alimiter=limit=0.2:latency=1 -map 0:v -map 1:a -c:v ffv1 -c:a pcm_s16le|{set:e|NSWIDTX}
+-vf hue=h=90,frei0r=hueshift0r:0.25,eq=brightness=0.2,eq=brightness=-0.1,eq=contrast=1.8,frei0r=saturat0r:0.5,hflip -af vibrato=15:1,vibrato=15:1,rubberband=pitch=1/1.025,flanger=8:0,flanger=8:0,flanger=8:0,rubberband=pitch=1.025,volume=10 -c:a pcm_s16le|{set:e|Star Major}
+swaprgba 0 bgr
+hueshifthsv 0 180
+haah 0
+audiopitch 0 2**(7/12)|{set:e|Shock X}
+invert 0
+hueshifthsv 0 180
+wave 0 -h*0.04 w*2
+cover 0 w h
+audiopitch 1 2
+audioputmix 0 1
+volume 0 2|{set:e|G-Major Mirror Top}
+haah 0
+woow 0
+invert 0
+speed 0 2|{set:e|G-Major 96}
+-vf hue=180,negate,swapuv,format=yuv444p16le,"geq='p(W*0.5+((X-W*0.5)/(min(W,H)*0.5))*(1-((0.5/4)*PI)*pow(1-pow(min(hypot((X-W*0.5)/(W*0.5),(Y-H*0.5)/(H*0.5))/1,1),2),2))*(min(W,H)*0.5),H*0.5+((Y-H*0.5)/(min(W,H)*0.5))*(1-((0.5/4)*PI)*pow(1-pow(min(hypot((X-W*0.5)/(W*0.5),(Y-H*0.5)/(H*0.5))/1,1),2),2))*(min(W,H)*0.5))'",scale=iw:ih,format=yuv420p,hue=180,swapuv,"crop=iw/2:ih:0:0,split[left][tmp];[tmp]hflip[right];[left][right]hstack",setpts=PTS*4/3,fps=60 -filter_complex "[0]rubberband=formant=712921634/635.8:pitch=2^(-15/12):tempo=0.75:pitchq=speed:transients=crisp:window=short:channels=together[a1];[0]rubberband=formant=712921634/635.8:pitch=2^(4/12):tempo=0.75:pitchq=speed:transients=crisp:window=short:channels=together[a2];[0]rubberband=formant=712921634/635.8:pitch=2^(9/12):tempo=0.75:pitchq=speed:transients=crisp:window=short:channels=together[a3];[a1][a2][a3]amix=3:normalize=0[a]" -map 0:v -map "[a]" -c:v ffv1 -c:a pcm_s16le|{set:e|Swirl Embosser}
+emboss 0 photoshop 10 1 5 -10
+swirl 0
+audiopitch 0 0.6674199270850172
+audiodelay 0 -0.01
+audiodelay 1 0.01
+audioputmix 0 1
+audiodelay 2 0.01
+audioputmix 0 2
+audiodelay 3 0.02
+audioputmix 0 3
+audiodelay 4 0.02
+audioputmix 0 4
+volume 0 3
+copy 0 0a
+audiopitch 0 1.3348398541700344
+audiopitch 0 2
+audioputmix 0 0a
+volume 0|{set:e|G-Major 782}
+swaprgba 0 r00
+huecurvergba 0 red 0.5 0
+audiopitch 0 2**(1/2)|{set:e|We’re All In This Together Effect V1}
+hueshifthsv 0 -120
+audiopitch 0 2**(-3/4)|{set:e|Orange Effect}
+ -vf "split=3[a][b][t];[a]format=gray,curves=r=0/1 0.5/1 1/1:g=0/0.5019607843137255 0.5/0.5019607843137255 1/0.5019607843137255:b=0/0 0.5/0 1/0[aa];[b]format=gray,curves=all=0/1 0.5/0 1/0[bb];[aa][bb]alphamerge[c];[t][c]overlay" -c:v ffv1 -c:a pcm_s16le a$i.mp4
+curl -sSL "https://github.com/GanerCodes/AutotuneBot/raw/refs/heads/main/autotune.exe" -o ./autotune.exe
+chmod +x ./autotune.exe
+ffmpeg -i a$i.mp4 -ac 1 -ar 48000 mod$i.wav
+ffmpeg -stream_loop -1 -i "https://cdn.discordapp.com/attachments/1502102376440529048/1545407342059720774/orange_effect_sound_vocoder_effect.mp3?ex=6a9c083e&is=6a9ab6be&hm=6280ef0e280e121d491daa8798dd290a7ffe12bd6fe62a4e3f286c818111adc9&" -ac 1 -ar 48000 -t $d carr$i.wav
+wine cmd &>/dev/null && wine ./autotune.exe -q -b 128 -w 1024 -N -v 10 mod$i.wav carr$i.wav aud$i.wav
+ffmpeg -i a$i.mp4 -i aud$i.wav -af highpass=200,bass=g=-10,alimiter=limit=0.2:latency=1 -map 0:v -map 1:a -c:v ffv1 -c:a pcm_s16le|{set:e|Full Chord}
+-vf "split=3[a][b][t];[a]format=gray,curves=r=0/1 0.25/0.5 0.5/0.32941176470588235 0.75/0 1/1:g=0/1 0.25/0 0.5/1 0.75/1 1/1:b=0/1 0.25/1 0.5/0.6235294117647059 0.75/1 1/1[aa];[b]format=gray,curves=all=0/1 0.25/1 0.5/1 0.75/1 1/1[bb];[aa][bb]alphamerge[c];[t][c]overlay" -c:v ffv1 -c:a pcm_s16le a$i.mp4
+curl -sSL "https://github.com/GanerCodes/AutotuneBot/raw/refs/heads/main/autotune.exe" -o ./autotune.exe
+chmod +x ./autotune.exe
+ffmpeg -i a$i.mp4 -ac 1 -ar 48000 mod$i.wav
+ffmpeg -stream_loop -1 -i "https://cdn.discordapp.com/attachments/1502102376440529048/1545409016094654545/convert.a05f6598.mp3?ex=6a9c09cd&is=6a9ab84d&hm=398b38fb18f2558835b77abab52c4e27e670703156ab1187bb91f4975f41d70f&" -ac 1 -ar 48000 -t $d carr$i.wav
+wine cmd &>/dev/null && wine ./autotune.exe -q -b 128 -w 1024 -N -v 10 mod$i.wav carr$i.wav aud$i.wav
+ffmpeg -i a$i.mp4 -i aud$i.wav -af highpass=200,bass=g=-10,alimiter=limit=0.2:latency=1 -map 0:v -map 1:a -c:v ffv1 -c:a pcm_s16le|{set:e|Rotating Robot}
+-vf rotate=-t/$d*PI*2,format=gbrp,convolution='20 0 0 0 1 0 0 0 -20:20 0 0 0 1 0 0 0 -20:20 0 0 0 1 0 0 0 -20:20 0 0 0 1 0 0 0 -20',format=gbrp -c:v ffv1 -c:a pcm_s16le a$i.mp4
+curl -sSL "https://github.com/GanerCodes/AutotuneBot/raw/refs/heads/main/autotune.exe" -o ./autotune.exe
+chmod +x ./autotune.exe
+ffmpeg -i a$i.mp4 -ac 1 -ar 48000 mod$i.wav
+ffmpeg -stream_loop -1 -i "https://cdn.discordapp.com/attachments/1502102376440529048/1545412225651580988/Rotating_Robot_Sound_Effect.mp3?ex=6a9c0cca&is=6a9abb4a&hm=33bf41cefb5d65d537611ff6d5f1788a950913228abf3aa028675b08d0ae34cc&" -ac 1 -ar 48000 -t $d carr$i.wav
+wine cmd &>/dev/null && wine ./autotune.exe -q -b 128 -w 1024 -N -v 10 mod$i.wav carr$i.wav aud$i.wav
+ffmpeg -i a$i.mp4 -i aud$i.wav -af highpass=200,bass=g=-10,alimiter=limit=0.2:latency=1 -map 0:v -map 1:a -c:v ffv1 -c:a pcm_s16le|{set:e|Upset}
+-vf format=yuv444p,scale=640:640,"geq='p(X,Y-((sin((T*5*0+(1.009))+(X/W)*(PI*4.35)))*(-0.143*640)))'",scale=$w:$h,format=yuv420p,scale=640:'-1':flags=neighbor,"format=rgba,split[base][src];[src]geq=r='0':g='255':b='255':a='255*min(1,max(0,1-(sqrt(min((X-(W*((0.66*2-1)*0.5+0.25)))^2+(Y-(H*(1-0.62)))^2,(X-(W*((0.362*2-1)*0.5+0.75)))^2+(Y-(H*(1-0.62)))^2))-min(W,H)*0.125)/(min(W,H)*(0))))',boxblur=18[circle];[base][circle]overlay=0:0:format=auto",scale=$w:$h:flags=neighbor -preset ultrafast -qp 1 -tune fastdecode -c:v ffv1 -c:a pcm_s16le a$i.mp4
+curl -sSL "https://github.com/GanerCodes/AutotuneBot/raw/refs/heads/main/autotune.exe" -o ./autotune.exe
+chmod +x ./autotune.exe
+ffmpeg -i a$i.mp4 -ac 1 -ar 48000 mod$i.wav
+ffmpeg -stream_loop -1 -i "https://cdn.discordapp.com/attachments/1502102376440529048/1545428013527859262/convert.317fc1bd.mp3?ex=6a9c1b7f&is=6a9ac9ff&hm=cb69a8c9536590e2ac6863ecb0ac81259499f1dab64f3cd5d5b8a510c96556d4&" -ac 1 -ar 48000 -t $d carr$i.wav
+wine cmd &>/dev/null && wine ./autotune.exe -q -b 128 -w 1024 -N -v 10 mod$i.wav carr$i.wav aud$i.wav
+ffmpeg -i a$i.mp4 -i aud$i.wav -af highpass=200,bass=g=-10,alimiter=limit=0.2:latency=1 -map 0:v -map 1:a -c:v ffv1 -c:a pcm_s16le|{set:e|Robot Voice}
+-vf format=gbrp,convolution='20 0 0 0 1 0 0 0 -20:20 0 0 0 1 0 0 0 -20:20 0 0 0 1 0 0 0 -20:20 0 0 0 1 0 0 0 -20',format=gbrp,format=yuv444p16le,"geq='p(W*0.5+((X-W*0.5)/(min(W,H)*0.5))*(1-((1/4)*PI)*pow(1-pow(min(hypot((X-W*0.5)/(W*0.5),(Y-H*0.8)/(H*0.5))/1,1),2),2))*(min(W,H)*0.5),H*0.8+((Y-H*0.8)/(min(W,H)*0.5))*(1-((1/4)*PI)*pow(1-pow(min(hypot((X-W*0.5)/(W*0.5),(Y-H*0.8)/(H*0.5))/1,1),2),2))*(min(W,H)*0.5))'",scale=iw:ih,format=yuv420p -c:v ffv1 -c:a pcm_s16le a$i.mp4
+curl -sSL "https://github.com/GanerCodes/AutotuneBot/raw/refs/heads/main/autotune.exe" -o ./autotune.exe
+chmod +x ./autotune.exe
+ffmpeg -i a$i.mp4 -ac 1 -ar 48000 mod$i.wav
+ffmpeg -stream_loop -1 -i "https://cdn.discordapp.com/attachments/1502102376440529048/1545433055945031803/convert.7ecf1f49.mp3?ex=6a9c2031&is=6a9aceb1&hm=ec3fd61c1312af118946e7cf0d7265a2ca6b2d1bc222788790182a0c7d119330&" -ac 1 -ar 48000 -t $d carr$i.wav
+wine cmd &>/dev/null && wine ./autotune.exe -q -b 128 -w 1024 -N -v 10 mod$i.wav carr$i.wav aud$i.wav
+ffmpeg -i a$i.mp4 -i aud$i.wav -af highpass=200,bass=g=-10,alimiter=limit=0.2:latency=1 -map 0:v -map 1:a -c:v ffv1 -c:a pcm_s16le|{set:e|One Note Voc}
+-vf format=yuv444p16le,scale=640:640,"geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*10)))*(15*(T/$d*4-2))),Y-((sin((T*5*0+(0*15))+(X/W)*(PI*0)))*(-15*0)))'","geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0)),Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*2)))'",scale=$w:$h,setsar=1:1,format=yuv420p -c:v ffv1 -c:a pcm_s16le a$i.mp4
+curl -sSL "https://github.com/GanerCodes/AutotuneBot/raw/refs/heads/main/autotune.exe" -o ./autotune.exe
+chmod +x ./autotune.exe
+ffmpeg -i a$i.mp4 -ac 1 -ar 48000 mod$i.wav
+ffmpeg -stream_loop -1 -i "https://cdn.discordapp.com/attachments/1516287797823148052/1545458252320604201/convert.7627ef5b.mp3?ex=6a9c37a8&is=6a9ae628&hm=6cd156b434f1f1aaabf6ad5f952921ddc94f156ed1afc89be0b6ae1740d6700f&" -ac 1 -ar 48000 -t $d carr$i.wav
+wine cmd &>/dev/null && wine ./autotune.exe -q -b 128 -w 1024 -N -v 10 mod$i.wav carr$i.wav aud$i.wav
+ffmpeg -i a$i.mp4 -i aud$i.wav -af highpass=200,bass=g=-10,alimiter=limit=0.2:latency=1 -map 0:v -map 1:a -c:v ffv1 -c:a pcm_s16le|{set:e|Ethereal Voices}
+-vf vflip,"crop=iw:ih/2:0:0,split[top][tmp];[tmp]vflip[bottom];[top][bottom]vstack",format=yuv444p16le,scale=640:640,"geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*1)))*(15*(W/30)))+W/2,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*0)))*(-15*0)))'",scale=$w:$h,setsar=1:1,"geq='p(W*0.5+((X-W*0.5)/(min(W,H)*0.5))*(1-((0.5/4)*PI)*pow(1-pow(min(hypot((X-W*0.5)/(W*0.5),(Y-H*0.5)/(H*0.5))/1,1),2),2))*(min(W,H)*0.5),H*0.5+((Y-H*0.5)/(min(W,H)*0.5))*(1-((0.5/4)*PI)*pow(1-pow(min(hypot((X-W*0.5)/(W*0.5),(Y-H*0.5)/(H*0.5))/1,1),2),2))*(min(W,H)*0.5))'",scale=iw:ih,format=yuv420p -c:v ffv1 -c:a pcm_s16le a$i.mp4
+curl -sSL "https://github.com/GanerCodes/AutotuneBot/raw/refs/heads/main/autotune.exe" -o ./autotune.exe
+chmod +x ./autotune.exe
+ffmpeg -i a$i.mp4 -ac 1 -ar 48000 mod$i.wav
+ffmpeg -stream_loop -1 -i "https://cdn.discordapp.com/attachments/1502102376440529048/1545459564680319106/convert.2a84bc0b.mp3?ex=6a9c38e1&is=6a9ae761&hm=47e60f9cad0e3c8ab6662fa07c2ac22c223263433ecfcf9db6da9557de8321a0&" -ac 1 -ar 48000 -t $d carr$i.wav
+wine cmd &>/dev/null && wine ./autotune.exe -q -b 128 -w 1024 -N -v 10 mod$i.wav carr$i.wav aud$i.wav
+ffmpeg -i a$i.mp4 -i aud$i.wav -af highpass=200,bass=g=-10,alimiter=limit=0.2:latency=1 -map 0:v -map 1:a -c:v ffv1 -c:a pcm_s16le|{set:e|Fmaj Vocoder}
+-vf "split=3[a][b][t];[a]format=gray,curves=r=0/1 0.2/0.058823529411764705 0.4/0 0.6/0 0.8/1 1/0:g=0/1 0.2/0.792156862745098 0.4/0.16862745098039217 0.6/0.9411764705882353 0.8/1 1/1:b=0/1 0.2/1 0.4/0.8235294117647058 0.6/0.9294117647058824 0.8/1 1/0.8[aa];[b]format=gray,curves=all=0/1 0.2/1 0.4/1 0.6/1 0.8/1 1/1[bb];[aa][bb]alphamerge[c];[t][c]overlay" -c:v ffv1 -c:a pcm_s16le a$i.mp4
+curl -sSL "https://github.com/GanerCodes/AutotuneBot/raw/refs/heads/main/autotune.exe" -o ./autotune.exe
+chmod +x ./autotune.exe
+ffmpeg -i a$i.mp4 -ac 1 -ar 48000 mod$i.wav
+ffmpeg -stream_loop -1 -i "https://cdn.discordapp.com/attachments/1516287797823148052/1545464264465055775/convert.6b80939f.mp3?ex=6a9c3d41&is=6a9aebc1&hm=614f527172a3679827a6683946d5bcc613009bf86b462022f4df519ec0da2510&" -ac 1 -ar 48000 -t $d carr$i.wav
+wine cmd &>/dev/null && wine ./autotune.exe -q -b 128 -w 1024 -N -v 10 mod$i.wav carr$i.wav aud$i.wav
+ffmpeg -i a$i.mp4 -i aud$i.wav -af highpass=200,bass=g=-10,alimiter=limit=0.2:latency=1 -map 0:v -map 1:a -c:v ffv1 -c:a pcm_s16le|{set:e|Weird Talk}
+-vf "movie=$(curl -s "https""://file.garden/aTXso15ukD3mnuPI/tv_sim_displacement_map.mov" -o ./tvsim.mov; echo ./tvsim.mov):loop=(2^31)-1,trim=duration=$d[d];[0]scale=854:854,format=bgr32[00];[d]scale=854:854,eq=contrast='(t/$d)*2.366666':eval=frame,format=bgr32,hue=b=-0.033[x];color=s=854x854:c=#808080,format=bgr32[y];[00][x][y]displace=edge=wrap,scale=$w:$h,setsar=1,format=yuv444p","split=3[a][b][t];[a]format=gray,curves=r=0/0 0.5/0 1/0:g=0/0 0.5/0 1/0:b=0/0 0.5/1 1/0[aa];[b]format=gray,curves=all=0/0 0.5/1 1/0[bb];[aa][bb]alphamerge[c];[t][c]overlay" -c:v ffv1 -c:a pcm_s16le a$i.mp4
+curl -sSL "https://github.com/GanerCodes/AutotuneBot/raw/refs/heads/main/autotune.exe" -o ./autotune.exe
+chmod +x ./autotune.exe
+ffmpeg -i a$i.mp4 -ac 1 -ar 48000 mod$i.wav
+ffmpeg -stream_loop -1 -i "https://cdn.discordapp.com/attachments/1502102376440529048/1545503569308946505/convert.7e50b6ac.mp3?ex=6a9c61dc&is=6a9b105c&hm=b8c04c3dab7ecb4a05e7a2412e718c8318ac149766334c01b84eb07b3e572e6a&" -ac 1 -ar 48000 -t $d carr$i.wav
+wine cmd &>/dev/null && wine ./autotune.exe -q -b 128 -w 1024 -N -v 10 mod$i.wav carr$i.wav aud$i.wav
+ffmpeg -i a$i.mp4 -i aud$i.wav -af highpass=200,bass=g=-10,alimiter=limit=0.2:latency=1 -map 0:v -map 1:a -c:v ffv1 -c:a pcm_s16le|{set:e|Jazz Vocoder}
+-vf "movie=$(curl -s "https""://file.garden/aTXso15ukD3mnuPI/tv_sim_displacement_map.mov" -o ./tvsim.mov; echo ./tvsim.mov):loop=(2^31)-1,trim=duration=$d[d];[0]scale=854:854,format=bgr32[00];[d]scale=854:854,eq=contrast='(0.25)*2.366666':eval=frame,format=bgr32,hue=b=-0.033[x];color=s=854x854:c=#808080,format=bgr32[y];[00][x][y]displace=edge=wrap,scale=$w:$h,setsar=1,format=yuv444p","split=3[a][b][t];[a]format=gray,curves=r=0/1 0.5/1 1/0:g=0/1 0.5/0.537255 1/0:b=0/1 0.5/0 1/0[aa];[b]format=gray,curves=all=0/1 1/1[bb];[aa][bb]alphamerge[c];[t][c]overlay" -c:v ffv1 -c:a pcm_s16le a$i.mp4
+curl -sSL "https://github.com/GanerCodes/AutotuneBot/raw/refs/heads/main/autotune.exe" -o ./autotune.exe
+chmod +x ./autotune.exe
+ffmpeg -i a$i.mp4 -ac 1 -ar 48000 mod$i.wav
+ffmpeg -stream_loop -1 -i "https://cdn.discordapp.com/attachments/1502102376440529048/1545505541713825954/convert.99ac9f21.mp3?ex=6a9c63b3&is=6a9b1233&hm=f4e55fd5f4f33fad45e60108040c9a56812f6ff35b7348df087ff77bd7c50775&" -ac 1 -ar 48000 -t $d carr$i.wav
+wine cmd &>/dev/null && wine ./autotune.exe -q -b 128 -w 1024 -N -v 10 mod$i.wav carr$i.wav aud$i.wav
+ffmpeg -i a$i.mp4 -i aud$i.wav -af highpass=200,bass=g=-10,alimiter=limit=0.2:latency=1 -map 0:v -map 1:a -c:v ffv1 -c:a pcm_s16le|{set:e|Fat X}
+-af asetrate=$sr/1 -preset ultrafast -threads 0 -tune fastdecode -movflags +faststart+frag_keyframe+empty_moov -c:a pcm_s16le a$i.mp4
+ffmpeg -i a$i.mp4 b$i.wav
+sox b$i.wav 1$i.wav pitch -400 10 5 1 
+ffmpeg -i a$i.mp4  -i 1$i.wav -vf "drawbox=t=1,format=gbrp,split=3[a0][temp1][temp2];[temp1]negate,lutrgb=r=val/1.25:g=val/1.25:b=val/1.25,negate,lutrgb=r=val/2:g=val/2:b=val/2,gblur=60,hue=s=0[a1];[temp2]geq=r=128:g=128:b=128,hue=s=0[a2];[a0][a1][a2]displace=edge=wrap[t1];[t1]split=3[b0][temp3][temp4];[temp3]negate,lutrgb=r=val/1.25:g=val/1.25:b=val/1.25,negate,lutrgb=r=val/2:g=val/2:b=val/2,gblur=60,negate,hue=s=0[b1];[temp4]geq=r=128:g=128:b=128,hue=s=0[b2];[b0][b1][b2]displace=edge=wrap[t2];[t2]split=3[c0][temp5][temp6];[temp5]geq=r=128:g=128:b=128,hue=s=0[c1];[temp6]negate,lutrgb=r=val/1.25:g=val/1.25:b=val/1.25,negate,lutrgb=r=val/2:g=val/2:b=val/2,gblur=60:sigma=60,negate,hue=s=0[c2];[c0][c1][c2]displace=edge=wrap,scroll=vpos=0.15[t3];[t3]split=3[d0][temp7][temp8];[temp7]geq=r=128:g=128:b=128,hue=s=0[d1];[temp8]negate,lutrgb=r=val/1.25:g=val/1.25:b=val/1.25,negate,lutrgb=r=val/2:g=val/2:b=val/2,gblur=60,hue=s=0[d2];[d0][d1][d2]displace=edge=wrap,scroll=vpos=0.85,format=yuv420p" -filter_complex "[1]amix=1:normalize=0,highpass=5,asetrate=$sr,lowpass=4000,highpass=1000,volume=4" -tune fastdecode -movflags +faststart+frag_keyframe+empty_moov -c:a pcm_s16le -preset ultrafast
+}}
+{if:{math:{indexof:-vf|{get:fx}+{indexof:-af|{get:fx}+{indexof:-filter_complex|{get:fx}}}|>|-3|then:{sh:
+load {iv}
+sr=$(ffprobe -v error -select_streams a:0 -show_entries stream=sample_rate -of default=nokey=1:noprint_wrappers=1 $FILE_1)
+fr=$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of default=nokey=1:noprint_wrappers=1 $FILE_1)
+d=$(ffprobe -i $FILE_1 -show_entries format=duration -v quiet -of csv="p=0")
+w=$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of default=nw=1:nk=1 $FILE_1)
+h=$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of default=nw=1:nk=1 $FILE_1)
+fc=$(ffprobe -v error -select_streams v:0 -show_entries stream=nb_frames -of default=nokey=1:noprint_wrappers=1 $FILE_1)
+{get:fx} ./output/$(basename $FILE_1)}
+{iscript:load FILE_1 0
+load https://cdn.discordapp.com/attachments/1502102376440529048/1545121218771030056/Untitled678_20260903131622.png?ex=6a9afdc5&is=6a99ac45&hm=2b9a1e5c9a5e25d0c3ab4092d02ad415d51553d4c95d7fa6e5ee8332101a73f5& i
+contain i w h
+{if:iw|=|FILE_1w|then:cover i w w*9/16|else:cover i h*16/9 h}
+overlay FILE_1 i 0 0}|else:{iscript:load {iv} 0
+get 0 width w
+get 0 height h
+get 0 duration d
+get 0 framecount fc
+copy 0 1
+copy 0 2
+copy 0 3
+copy 0 4
+copy 0 5
+copy 0 6
+{get:fx}
+load https://cdn.discordapp.com/attachments/1502102376440529048/1545121218771030056/Untitled678_20260903131622.png?ex=6a9afdc5&is=6a99ac45&hm=2b9a1e5c9a5e25d0c3ab4092d02ad415d51553d4c95d7fa6e5ee8332101a73f5& i
+contain i w h
+{if:iw|=|w|then:cover i w w*9/16|else:cover i h*16/9 h}
+overlay 0 i 0 0}}
+You got: {get:e}{if:{get:s}|=||then:|else:, suggested by {get:s}}
+ping mr.media2k, yasinreturns or yellowgreengmd_gdalt if you want to suggest an effect to be added.
