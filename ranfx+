@@ -1184,7 +1184,7 @@ ffmpeg -i a$i.mp4 b$i.wav
 sox b$i.wav 1$i.wav pitch -400 10 5 1 
 ffmpeg -i a$i.mp4  -i 1$i.wav -vf "drawbox=t=1,format=gbrp,split=3[a0][temp1][temp2];[temp1]negate,lutrgb=r=val/1.25:g=val/1.25:b=val/1.25,negate,lutrgb=r=val/2:g=val/2:b=val/2,gblur=60,hue=s=0[a1];[temp2]geq=r=128:g=128:b=128,hue=s=0[a2];[a0][a1][a2]displace=edge=wrap[t1];[t1]split=3[b0][temp3][temp4];[temp3]negate,lutrgb=r=val/1.25:g=val/1.25:b=val/1.25,negate,lutrgb=r=val/2:g=val/2:b=val/2,gblur=60,negate,hue=s=0[b1];[temp4]geq=r=128:g=128:b=128,hue=s=0[b2];[b0][b1][b2]displace=edge=wrap[t2];[t2]split=3[c0][temp5][temp6];[temp5]geq=r=128:g=128:b=128,hue=s=0[c1];[temp6]negate,lutrgb=r=val/1.25:g=val/1.25:b=val/1.25,negate,lutrgb=r=val/2:g=val/2:b=val/2,gblur=60:sigma=60,negate,hue=s=0[c2];[c0][c1][c2]displace=edge=wrap,scroll=vpos=0.15[t3];[t3]split=3[d0][temp7][temp8];[temp7]geq=r=128:g=128:b=128,hue=s=0[d1];[temp8]negate,lutrgb=r=val/1.25:g=val/1.25:b=val/1.25,negate,lutrgb=r=val/2:g=val/2:b=val/2,gblur=60,hue=s=0[d2];[d0][d1][d2]displace=edge=wrap,scroll=vpos=0.85,format=yuv420p" -filter_complex "[1]amix=1:normalize=0,highpass=5,asetrate=$sr,lowpass=4000,highpass=1000,volume=4" -tune fastdecode -movflags +faststart+frag_keyframe+empty_moov -c:a pcm_s16le -preset ultrafast
 }}
-{if:{math:{indexof:-vf|{get:fx}+{indexof:-af|{get:fx}+{indexof:-filter_complex|{get:fx}}}|>|-3|then:{sh:
+{if:{math:{indexof:-vf|{get:fx}}+{indexof:-af|{get:fx}}+{indexof:-filter_complex|{get:fx}}}|>|-3|then:{sh:
 load {iv}
 sr=$(ffprobe -v error -select_streams a:0 -show_entries stream=sample_rate -of default=nokey=1:noprint_wrappers=1 $FILE_1)
 fr=$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of default=nokey=1:noprint_wrappers=1 $FILE_1)
