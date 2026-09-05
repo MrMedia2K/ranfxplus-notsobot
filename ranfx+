@@ -485,7 +485,7 @@ audiopitch 2 2
 audiopitch 2 2**(1/6)
 audioputmix 0 1
 audioputmix 0 2
-volume 0 3|{set|e:You Wiggled X}
+volume 0 3|{set:e|You Wiggled X}
 hueshifthsv 0 70
 haah 0
 rotate 0 90
@@ -633,11 +633,15 @@ audiopitch 1 1/1.6
 audiopitch 2 1/0.8
 audiopitch 3 2
 audiopitch 3 1/0.8
-audiopitch 4 1/1.35|{set:e|G-Simplified Major 1}
+audiopitch 4 1/1.35
+audioputmix 0 1
+audioputmix 0 2
+audioputmix 0 3
+audioputmix 0 4|{set:e|G-Simplified Major 1}
 invert 0
 hueshifthsv 0 88.2
 rotate 0 90
-waves 0 w/100 h*5 10
+waves 0 w/100 h*3 10
 rotate 0 -90
 cover 0 w h
 audiopitch 1 0.5
