@@ -1,4 +1,4 @@
-{choose:random dialouge|watch something go wrong with the ffmpeg effects even tho i tested them|{math:{js:console.log(discord.tag.uses)}+1} uses|meow|:3|if yasin becomes controversial again then i’m keeping the merge so i can stay ahead}{if:{username:{tagownerid}}|=|mr.media2k|then:|else:{if:{username:{tagownerid}}|=|yasinreturns|then:|else:{if:{username:{tagownerid}}|=|yellowgreengmd_gdalt|then:|else:{newline}**this tag is not owned by the real creators (mr.media2k, yasinreturns & yellowgreengmd_gdalt)!**}}}
+{choose:random dialouge|watch something go wrong with the ffmpeg effects even tho i tested them|{math:{js:console.log(discord.tag.uses)}+1} uses|meow|:3|if yasin becomes controversial again then i’m keeping the merge so i can stay ahead}{if:{username:{tagownerid}}|=|mr.media2k|then:|else:{if:{username:{tagownerid}}|=|yellowgreengmd_gdalt|then:|else:{newline}**this tag is not owned by the real creators (mr.media2k & yellowgreengmd_gdalt)!**}}
 {set:c|}
 {set:fx|{choose:{set:e|Green Lowers}
 swaprgba 0 grb
@@ -1216,4 +1216,4 @@ load https://cdn.discordapp.com/attachments/1502102376440529048/1545121218771030
 fit i w h
 overlay 0 i 0 0}}
 You got: {get:e}{if:{get:s}|=||then:|else:, suggested by {get:s}}{if:{get:c}|=||then:|else:, contributed by {get:c}}
-ping mr.media2k, yasinreturns or yellowgreengmd_gdalt if you want to suggest an effect to be added.
+ping mr.media2k or yellowgreengmd_gdalt if you want to suggest an effect to be added.
