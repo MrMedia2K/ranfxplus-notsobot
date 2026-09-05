@@ -4,4 +4,3 @@ the ultimate tag made by YellowGreenGMD, MrMedia2K and Yasin (why does he collab
 ### credits
 - **MrMedia2K**: the tag and RanFXmm
 - **YellowGreenGMD**: RandomEffectx
-- **Yasin**: RandFX
