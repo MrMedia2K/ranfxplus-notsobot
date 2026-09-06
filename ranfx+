@@ -1062,7 +1062,15 @@ wave 0 -h*0.04 w*2
 cover 0 w h
 audiopitch 1 2
 audioputmix 0 1
-volume 0 2|{set:e|G-Major Mirror Top}
+volume 0 2|{set:e|Electrodynamix}{set:c|yellowgreengmd_gdalt}
+-vf format=gray,hue=b=-0.2,curves=r='0/1 0.33/0 0.67/0 1/0':g='0/1 0.33/1 0.67/1 1/0':b='0/1 0.33/0 0.67/1 1/1'
+copy 0 0a
+audiopitch 0 2**(-5/12)
+audiopitch 0a 2**(2/12)
+audiodelay 0a 0.02
+audioputmix 0 0a
+volume 0 5
+volume 0 0.7|{set:e|G-Major Mirror Top}
 haah 0
 woow 0
 invert 0
