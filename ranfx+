@@ -1225,6 +1225,8 @@ h=$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of default
 fc=$(ffprobe -v error -select_streams v:0 -show_entries stream=nb_frames -of default=nokey=1:noprint_wrappers=1 $FILE_1)
 ffmpeg -i $FILE_1 {get:fx} ./output/$(basename $FILE_1)}
 {iscript:load FILE_1 0
+get 0 width w
+get 0 height h
 load https://cdn.discordapp.com/attachments/1502102376440529048/1545121218771030056/Untitled678_20260903131622.png?ex=6a9afdc5&is=6a99ac45&hm=2b9a1e5c9a5e25d0c3ab4092d02ad415d51553d4c95d7fa6e5ee8332101a73f5& i
 fit i w h
 overlay 0 i 0 0}|else:{iscript:load {iv} 0
