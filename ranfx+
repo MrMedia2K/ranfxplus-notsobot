@@ -31,7 +31,7 @@ hueshifthsv 0 180
 audiopitch 0 2**(-5/12)|{set:e|Red Major}
 grayscale 0
 swaprgba 0 r00
-huecurvergba 0 1 0 1
+huecurvergba 0 red 1 0 1
 audiopitch 0 2**(-1/3)|{set:e|Leaf Fall Down Major}
 flop 0
 hueshifthsv 0 -60
