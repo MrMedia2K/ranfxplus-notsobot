@@ -1120,7 +1120,20 @@ volume 0$
 audioputmix 0$ 0$r
 volume 0$
 audiopitch 0$ 2**(-0.2/12)
-audioputreplace 0 0$|{set:e|Orange Effect}
+audioputreplace 0 0$|{set:e|Forbidden Major 404}
+huecurvergba 0 all 0 1 0
+invert 0
+copy 0 oil
+invert 0
+crop oil w h 0 h/2
+overlay 0 oil w-oilw h-oilh 255,255,255 0.3 0.1
+copy 0 m2
+audiopitch m2 1.44
+audioputmix 0 m2
+copy 0 m3
+audiopitch m3 1.2
+audioputmix 0 m3
+volume 0 3|{set:e|Orange Effect}
  -vf "split=3[a][b][t];[a]format=gray,curves=r=0/1 0.5/1 1/1:g=0/0.5019607843137255 0.5/0.5019607843137255 1/0.5019607843137255:b=0/0 0.5/0 1/0[aa];[b]format=gray,curves=all=0/1 0.5/0 1/0[bb];[aa][bb]alphamerge[c];[t][c]overlay" -c:v ffv1 -c:a pcm_s16le a$i.mp4
 curl -sSL "https://github.com/GanerCodes/AutotuneBot/raw/refs/heads/main/autotune.exe" -o ./autotune.exe
 chmod +x ./autotune.exe
@@ -1212,7 +1225,18 @@ ffmpeg -i a$i.mp4 -i aud$i.wav -f mp4 -vf "split=3[a][b][t];[a]format=gray,curve
 -vf lut3d=$(curl -s "hyyps://cdn.discordapp.com/attachments/1124759991765717092/1465625649422143591/GrayscaleInvert.cube?ex=6979c9c0&is=69787840&hm=f3aaa8011c5fd6c972ee6b2bb65b246c6e45ae3251b671e5b10f57c5b25f4610&" -o ./lut.cube; echo ./lut.cube),format=yuv444p,vidstabtransform=input="newbluefx_earthquake.trf":optalgo=avg:optzoom=0:zoom=15:invert=1,scale=iw:ih,format=yuv420p -filter_complex "[0]areverse,rubberband=pitch=2^(11/12):window=short:transients=crisp:pitchq=quality:channels=together,areverse,alimiter=2:latency=1[a1];[0]areverse,rubberband=pitch=2^(-11/12):window=short:transients=crisp:pitchq=quality:channels=together,areverse,alimiter=2:latency=1[a2];[a1][a2]amix=2,highpass=25" -c:v ffv1 -c:a pcm_s16le|{set:e|Wiggly Pitch} {set:c|Gaith's MIBU Channel}
 -f mp4 -vf frei0r=distort0r:0.5 -filter_complex "[0]rubberband=phase=7950000/4.83:pitch=2^(7/12):formant=2.14748e+09/56:transients=crisp:pitchq=consistency[a1];[0]rubberband=phase=7950000/4.83:pitch=2^(-5/12):formant=2.14748e+09/56:transients=crisp:pitchq=consistency[a2];[a1][a2]amix=normalize=0,alimiter=2:latency=1" -c:v ffv1 -c:a pcm_s16le|{set:e|-44-DXI} {set:c|TNUAMZEARG2025}
 -f avi -vf format=yuv444p,vflip,vidstabtransform=input="91dxi_shake.trf":optzoom=0:zoom=0:invert=1:crop=black,vflip,scale=$h:$h,"geq='p(W*0.5+(hypot(X-W*0.5,Y-H*0.5)+1e-6)*cos((atan2(Y-H*0.5,X-W*0.5))+((-47)/180*PI)*(if(lt(hypot(X-W*0.5,Y-H*0.5)+1e-6,min(W,H)*0.5),1-(hypot(X-W*0.5,Y-H*0.5)+1e-6)/(min(W,H)*0.5),0)^2)),H*0.5+(hypot(X-W*0.5,Y-H*0.5)+1e-6)*sin((atan2(Y-H*0.5,X-W*0.5))+((-47)/180*PI)*(if(lt(hypot(X-W*0.5,Y-H*0.5)+1e-6,min(W,H)*0.5),1-(hypot(X-W*0.5,Y-H*0.5)+1e-6)/(min(W,H)*0.5),0)^2)))'",scale=$w:$h,setsar=1:1,scale=iw:ih,crop=$w:$h,"crop=iw/2:ih:iw/2:0,split[right][tmp];[tmp]hflip[left];[left][right]hstack","split=3[a][b][t];[a]hue=s=0,curves=r=0/1 0.3333333333333333/0 0.6666666666666666/0.5294117647058824 1/1:g=0/0.14901960784313725 0.3333333333333333/0 0.6666666666666666/0 1/1:b=0/1 0.3333333333333333/0.7529411764705882 0.6666666666666666/1 1/1[aa];[b]hue=s=0,curves=all=0/1 0.3333333333333333/1 0.6666666666666666/1 1/1[bb];[aa][bb]alphamerge[c];[t][c]overlay",negate,format=yuv420p -filter_complex "[0]rubberband=phase=7950000/4.83:pitch=2^(-5/12):detector=2.14748e+09/56:transients=crisp:pitchq=consistency[a1];[0]rubberband=phase=7950000/4.83:pitch=2^(2/12):detector=2.14748e+09/56:transients=crisp:pitchq=consistency[a2];[a1][a2]amix=2:normalize=0" -c:v ffv1 -c:a pcm_s16le|{set:e|91-DXI} {set:c|TNUAMZEARG2025}
--vf movie=$(magick hald:6 -modulate 100,100,%[fx:0.5*200+100] hue.ppm; echo hue.ppm),"[in]haldclut",colorchannelmixer=0:1:0:0:0:0:1:0:1:0:0:0:0:0:0:1,negate,huesaturation=0:saturation=1:strength=100,format=yuv444p,vidstabtransform=input="91dxi_shake.trf":optzoom=0:zoom=0:invert=1:crop=black,format=yuv420p -filter_complex "[0]rubberband=pitch=2^(0/12):window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=quality[a1];[0]rubberband=pitch=2^(-3.5/12):window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=quality[a2];[a1][a2]amix=2:normalize=0" -c:a pcm_s16le
+-vf movie=$(magick hald:6 -modulate 100,100,%[fx:0.5*200+100] hue.ppm; echo hue.ppm),"[in]haldclut",colorchannelmixer=0:1:0:0:0:0:1:0:1:0:0:0:0:0:0:1,negate,huesaturation=0:saturation=1:strength=100,format=yuv444p,vidstabtransform=input="91dxi_shake.trf":optzoom=0:zoom=0:invert=1:crop=black,format=yuv420p -filter_complex "[0]rubberband=pitch=2^(0/12):window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=quality[a1];[0]rubberband=pitch=2^(-3.5/12):window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=quality[a2];[a1][a2]amix=2:normalize=0" -c:a pcm_s16le|{set:e|Billy Gardener's G-Major 1} {set:c|beenus}
+-vf negate -filter_complex "[0]rubberband=formant=712921634/635.8:pitch=2^(0/12):pitchq=speed:transients=crisp:window=short:channels=together[a1];[0]rubberband=formant=712921634/635.8:pitch=2^(7/12):pitchq=speed:transients=crisp:window=short:channels=together[a2];[a1][a2]amix=2:normalize=0[a]" -map 0:v -map "[a]" -c:v ffv1 -c:a pcm_s16le|{set:e|Medium Voice} {set:c|AMTVE (partially)}
+ -qp 1 -c:a pcm_s16le a$i.mp4
+curl -sSL "https://file.garden/aTXso15ukD3mnuPI/multipitch" -o ./pitch_multi_shifter
+mv ./pitch_multi_shifter ./program
+chmod +x program
+ffmpeg -i a$i.mp4 -af asetrate=$sr/2.888888888888888888888889 h$i.wav
+./program h$i.wav out$i.wav -1 --rubberband --no-normalize
+ffmpeg -i a$i.mp4 -i out$i.wav -vf "movie=$(magick hald:6 -define modulate:colorspace=hsl -modulate 100,100,%[fx:0.65*200+100] hsv.ppm; echo hsv.ppm),[in]haldclut",scroll=vpos=0.5,frei0r=mirr0r:'0\u007c0.5',setpts=1/0.95*PTS,fps=$fr,tmix=2,format=yuv420p -af asetrate=$sr,bass=f=50:g=1.275:transform=5,atempo=0.95 -map 0:v -map 1:a -preset ultrafast -qp 1 -c:a pcm_s16le|{set:e|{choose:DMA|Diamond Accompiment}}
+-filter_complex "[0]format=gbrp[base];nullsrc=640x360,geq=r=255*(1-X/W):g=255*X/W:b=255*Y/H,scale=$w:$h[overlay];[base][overlay]blend=all_mode=difference,format=yuv420p;[0]rubberband=formant=2.14748e+09/4.9:pitch=2^(-23/12):detector=712923000/634:pitchq=consistency[a1];[0]rubberband=formant=2.14748e+09/4.9:pitch=2^(-11/12):detector=712923000/634:pitchq=consistency[a2];[0]rubberband=formant=2.14748e+09/4.9:pitch=2^(1/12):detector=712923000/634:pitchq=consistency[a3];[0]rubberband=formant=2.14748e+09/4.9:pitch=2^(13/12):detector=712923000/634:pitchq=consistency[a4];[a1][a2][a3][a4]amix=4:normalize=0,alimiter=4:latency=1" -c:v ffv1 -c:a pcm_s16le|{set:e|WOOAAEEIIUUGGHH}
+-vf format=yuv444p16le,scale=640:640,"geq='p(X-((sin((T50+(015))+(Y/H)(PI0)))(-150)),Y-((sin((T53+(015))+(X/W)(PI1)))(-153)))'",scale=$w:$h,setsar=1:1,format=yuv420p,hue=180,"hue=s=3.0",lutrgb="b=negval",hue=180,negate -filter_complex "[0]rubberband=formant=712921634/635.8:pitch=2^(-14/12):pitchq=speed:transients=crisp:window=short:channels=together[a1];[0]rubberband=formant=712921634/635.8:pitch=2^(-10/12):pitchq=speed:transients=crisp:window=short:channels=together[a2];[0]rubberband=formant=712921634/635.8:pitch=2^(3/12):pitchq=speed:transients=crisp:window=short:channels=together[a3];[a1][a2][a3]amix=3:normalize=0[a]" -map 0:v -map "[a]" -c:v ffv1 -c:a pcm_s16le|{set:e|Real Haunted G-Major (MPSEditz2K9)}
+
 }}
 {set:fx|{replace:hyyps|https|{get:fx}}}
 {if:{math:{indexof:-vf|{get:fx}}+{indexof:-af|{get:fx}}+{indexof:-filter_complex|{get:fx}}}|>|-3|then:{sh:
