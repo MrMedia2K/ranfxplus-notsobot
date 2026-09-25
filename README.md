@@ -1,5 +1,5 @@
 ## RanFX+
-the ultimate tag made by YellowGreenGMD, MrMedia2K and Yasin (why does he collaborate bro D:).
+the ultimate tag made by YellowGreenGMD & MrMedia2K
 
 ### credits
 - **MrMedia2K**: the tag and RanFXmm
